@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">TP2</string>
+    <string name="nav_header_title">TP2</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navbar_internet_status">Statut Internet</string>
+    <string name="navbar_about">À propos</string>
+    <string name="navbar_user_management">Gestion utilisateur</string>
+    <string name="navbar_user_form">Formulaire</string>
+    <string name="navbar_user_profile">Mon profil</string>
+    <string name="internet_status_no_connexion">Aucune connexion</string>
+    <string name="internet_status_wifi">WIFI</string>
+    <string name="internet_status_3g_lte">3G/LTE</string>
+    <string name="sex_field">Sexe:</string>
+    <string name="birthdate_field">Date de naissance:</string>
+    <string name="firstname_field">Prénom:</string>
+    <string name="lastname_field">Nom:</string>
+    <string name="firstname_developer">Maxime</string>
+    <string name="lastname_developer">Leroy</string>
+    <string name="birthdate_developer">1997–19–12</string>
+    <string name="sex_male_field">Masculin</string>
+    <string name="sex_female_field">Féminin</string>
+    <string name="program_developer">EPITECH</string>
+    <string name="program_field">Programme:</string>
+    <string name="about_text">"Spicy jalapeno bacon ipsum dolor amet pork chop doner sausage chicken porchetta tri-tip rump. Short ribs tenderloin pancetta, spare ribs turducken burgdoggen pork belly filet mignon ribeye ball tip sausage tongue fatback beef ribs ham hock. Picanha sausage kielbasa tri-tip frankfurter porchetta fatback beef ribs pancetta jowl chuck filet mignon pork belly pig. Jowl boudin swine pork alcatra ham. Ball tip pork belly prosciutto fatback. Pork chop pig landjaeger turducken, tenderloin picanha beef ribs flank swine. Pastrami fatback porchetta kevin cupim, shankle shank ball tip tenderloin prosciutto ham hock short loin.
+
+Ham pastrami porchetta frankfurter boudin salami. Capicola cupim flank meatball shank bacon ham hock pastrami sausage prosciutto pork chop short ribs porchetta pig tri-tip. Prosciutto cupim t-bone shoulder, corned beef rump capicola sausage jerky pork loin pig. Bacon leberkas chuck pork loin ham pastrami. Flank biltong filet mignon bacon.
+
+Landjaeger biltong sirloin leberkas flank ribeye. Doner ham tenderloin kielbasa cupim tongue. Short loin tail fatback prosciutto chicken, pork belly pastrami shankle filet mignon t-bone flank turkey pancetta. Bresaola jerky prosciutto pancetta ball tip sausage meatloaf tenderloin t-bone porchetta pork chop rump tail doner fatback. Ribeye kielbasa biltong, drumstick shoulder pork leberkas beef ribs turducken spare ribs short loin picanha frankfurter brisket pork loin. Drumstick alcatra meatball, hamburger ham frankfurter ribeye strip steak leberkas pig landjaeger.
+
+Bacon ground round chicken kielbasa biltong fatback pork chop. Beef ribs fatback chicken chuck. Cow meatloaf short loin landjaeger prosciutto frankfurter ball tip. Cupim tenderloin pig ribeye shank. Pig ball tip cow kevin beef bacon. Pig leberkas strip steak, shank pork pastrami chicken jerky tenderloin meatloaf. Pancetta pork loin salami biltong beef fatback capicola sausage kevin drumstick picanha shank beef ribs brisket doner.
+
+Landjaeger alcatra andouille burgdoggen kevin, pig kielbasa ground round tri-tip doner beef ribs capicola. Brisket ball tip spare ribs, landjaeger pork boudin filet mignon sirloin sausage frankfurter tri-tip picanha cow venison. Ground round corned beef sausage t-bone biltong beef ribs landjaeger drumstick. Brisket chuck t-bone jerky turducken chicken. Jerky alcatra beef ribs turducken frankfurter swine landjaeger picanha pork chop pork loin. Jerky capicola ball tip sausage porchetta. Frankfurter pancetta beef ribs prosciutto tenderloin burgdoggen alcatra cow bresaola kevin.
+
+Long enough eh!
+THE END 5x!"
+    </string>
+    <string name="user_profile_text">"He has enough money to last forever. He knows he needs to keep moving. You'll never find him. He's out of the picture. I saved his life, I owed him that, but now he and I are done. Which is exactly what you wanted, isn't it. You've always struck me as a very pragmatic man so if I may, I would like to review options with you. Of which, it seems to me you have two.
+
+Option A, you kill me right here and now. Apparently I've made that very easy for you. You can kill me, no witnesses and then spend the next few weeks or months tracking down Jesse Pinkman and you kill him too. A pointless exercise it seems to me but that is Option A.
+
+I continue cooking, you and I both forget about Pinkman. We forget this ever happened. We consider this a lone hiccup in an otherwise long and fruitful business arrangement. I prefer Option B.
+
+He'll live. I asked to see you in order to... clear the air. There are uh, some... issues that could cause a misunderstanding between us and I think it's in our best interest to lay the cards on the table. My brother-in-law, moments before he was attacked, someone called to warn him. I believe that same person was protecting me.
+
+THE END 4x"
+    </string>
+    <string name="description_field">Description</string>
+    <string name="submit_field">Soumettre</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".UserFormFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/firstname_field"/>
+
+        <EditText
+            android:id="@+id/firstname_input"
+            android:textColor="@color/colorPrimaryBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/firstname_developer" />
+
+        <TextView
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lastname_field"/>
+
+        <EditText
+            android:id="@+id/lastname_input"
+            android:textColor="@color/colorPrimaryBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lastname_developer" />
+
+        <TextView
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/birthdate_field"/>
+
+        <EditText
+            android:id="@+id/birthdate_input"
+            android:textColor="@color/colorPrimaryBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/birthdate_developer" />
+
+        <TextView
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sex_field"/>
+
+        <RadioGroup
+            android:id="@+id/sex_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/sex_male_radio_button"
+                android:textColor="@color/colorPrimaryBlack"
+                android:text="@string/sex_male_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/sex_female_radio_button"
+                android:textColor="@color/colorPrimaryBlack"
+                android:text="@string/sex_female_field"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <TextView
+            android:textSize="15sp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/program_field"/>
+
+        <Spinner
+            android:id="@+id/program_choice_spinner"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorPrimaryLightGrey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Spinner>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/submit_field" />
+</FrameLayout>

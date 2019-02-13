@@ -1,0 +1,6 @@
+<resources>
+    <item name="ic_menu_wifi" type="drawable">@drawable/ic_menu_wifi</item>
+    <item name="ic_menu_about" type="drawable">@drawable/ic_menu_about</item>
+    <item name="ic_menu_user" type="drawable">@drawable/ic_menu_user</item>
+    <item name="ic_menu_pencil" type="drawable">@drawable/ic_menu_pencil</item>
+</resources>

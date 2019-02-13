@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="program_choice_array">
+        <item>GEL</item>
+        <item>GLO</item>
+        <item>GIF</item>
+        <item>EPITECH</item>
+    </string-array>
+</resources>
