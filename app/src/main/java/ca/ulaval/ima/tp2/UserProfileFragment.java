@@ -1,6 +1,5 @@
 package ca.ulaval.ima.tp2;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -10,6 +9,7 @@ import android.widget.TextView;
 
 public class UserProfileFragment extends Fragment {
 
+    private static User user;
 
     public UserProfileFragment() {
         // Required empty public constructor
@@ -30,9 +30,11 @@ public class UserProfileFragment extends Fragment {
     }
 
     public void setUserValues(View view) {
-        User user = null;
         if (this.getArguments() != null) {
             user = this.getArguments().getParcelable("parcel_user");
+            if (getActivity() != null) {
+                ((MainActivity) getActivity()).setBackButton();
+            }
         }
         if (user == null) {
             user = new User(getString(R.string.firstname_developer),

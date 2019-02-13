@@ -6,136 +6,130 @@
     android:padding="20dp"
     tools:context=".UserProfileFragment">
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:orientation="vertical"
-        android:layout_height="fill_parent"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         tools:ignore="UselessParent">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="14dp"
-            android:background="@color/colorPrimaryLightGrey">
-
-                <RelativeLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-                        <TextView
-                            android:textStyle="bold"
-                            android:textColor="@color/colorPrimaryBlack"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/firstname_field"/>
-                        <TextView
-                            android:textStyle="bold"
-                            android:textColor="@color/colorPrimaryBlack"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/lastname_field"/>
-                        <TextView
-                            android:textStyle="bold"
-                            android:textColor="@color/colorPrimaryBlack"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/birthdate_field"/>
-                        <TextView
-                            android:textStyle="bold"
-                            android:textColor="@color/colorPrimaryBlack"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/sex_field"/>
-                        <TextView
-                            android:textStyle="bold"
-                            android:textColor="@color/colorPrimaryBlack"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/program_field"/>
-                    </LinearLayout>
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:paddingLeft="20dp"
-                    android:gravity="center"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical">
-                        <TextView
-                            android:id="@+id/firstname_input"
-                            android:gravity="center"
-                            android:textColor="@color/colorPrimaryBlack"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/firstname_developer" />
-
-                        <TextView
-                            android:id="@+id/lastname_input"
-                            android:gravity="center"
-                            android:textColor="@color/colorPrimaryBlack"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/lastname_developer" />
-                        <TextView
-                            android:id="@+id/birthdate_input"
-                            android:gravity="center"
-                            android:textColor="@color/colorPrimaryBlack"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/birthdate_developer" />
-                        <TextView
-                            android:id="@+id/sex_input"
-                            android:textColor="@color/colorPrimaryBlack"
-                            android:gravity="center"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/sex_male_field"/>
-                        <TextView
-                            android:id="@+id/program_input"
-                            android:gravity="center"
-                            android:textColor="@color/colorPrimaryBlack"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/program_developer"/>
-                    </LinearLayout>
-                </RelativeLayout>
-        </LinearLayout>
-
-        <TextView
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:paddingTop="30dp"
-            android:paddingBottom="10dp"
-            android:textColor="@color/colorPrimaryBlack"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/description_field"/>
-
-        <ScrollView
-            android:id="@+id/scrollView1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:ignore="UselessParent">
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:background="@color/colorPrimaryLightGrey">
 
-                <TextView
-                    android:textColor="@color/colorPrimaryBlack"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:scrollbars="vertical"
-                    android:text="@string/user_profile_text" />
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimaryBlack"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/firstname_field"/>
+                            <TextView
+                                android:layout_marginTop="@dimen/fragment_field_vertical"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimaryBlack"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lastname_field"/>
+                            <TextView
+                                android:layout_marginTop="@dimen/fragment_field_vertical"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimaryBlack"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/birthdate_field"/>
+                            <TextView
+                                android:layout_marginTop="@dimen/fragment_field_vertical"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimaryBlack"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/sex_field"/>
+                            <TextView
+                                android:layout_marginTop="@dimen/fragment_field_vertical"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimaryBlack"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/program_field"/>
+                        </LinearLayout>
+                    </RelativeLayout>
 
+                    <RelativeLayout
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/firstname_input"
+                                android:gravity="center"
+                                android:textColor="@color/colorPrimaryBlack"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:id="@+id/lastname_input"
+                                android:layout_marginTop="@dimen/fragment_field_vertical"
+                                android:gravity="center"
+                                android:textColor="@color/colorPrimaryBlack"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/birthdate_input"
+                                android:layout_marginTop="@dimen/fragment_field_vertical"
+                                android:gravity="center"
+                                android:textColor="@color/colorPrimaryBlack"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/sex_input"
+                                android:layout_marginTop="@dimen/fragment_field_vertical"
+                                android:textColor="@color/colorPrimaryBlack"
+                                android:gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:id="@+id/program_input"
+                                android:layout_marginTop="@dimen/fragment_field_vertical"
+                                android:gravity="center"
+                                android:textColor="@color/colorPrimaryBlack"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </RelativeLayout>
             </LinearLayout>
-        </ScrollView>
-    </LinearLayout>
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingTop="30dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/colorPrimaryBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description_field"/>
+
+            <TextView
+                android:textColor="@color/colorPrimaryBlack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:text="@string/user_profile_text" />
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>

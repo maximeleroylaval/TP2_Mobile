@@ -2,8 +2,8 @@
 <resources>
     <string-array name="program_choice_array">
         <item>GEL</item>
-        <item>GLO</item>
         <item>GIF</item>
-        <item>EPITECH</item>
+        <item>GLO</item>
+        <item>IFT</item>
     </string-array>
 </resources>
